@@ -24,3 +24,7 @@ df.isnull()
 
 #查看某一列空值：
 df['category'].isnull()
+
+
+#使用字0填充空值：
+df.fillna(value=0)
